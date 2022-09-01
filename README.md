@@ -1,27 +1,25 @@
-# Bytebank
+# PROJETO ANGULAR
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+Este projeto foi construído como base para os estudos de ANGULAR CLI, neste projeto é apresentando uma SPA que utiliza métodos modernos para criar renderização.
+Neste projeto é demostrado a arquitetura do ANGULAR.
+1.	Como criar componentes.
+2.	Como utilizar valores de formulários nos componentes com Form Module
+3.	Como utilizar OUTPUT de dados com decorador @OutPut para pegar dados do componente e enviar para outro.
+4.	INPUT decorador para pegar dados de outros componentes 
+5.	Usando condicionais e looping dentro do html com ngIf e NgFor
+6.	Formatar Data e Valores com providers
+7.	Criando SERVICES para facilitar coleta de dados entre componentes.
+8.	Usando HTTPCLIENTE para solicitar requisições de páginas
+9.	Usando Routers para melhorar a visualização dos componentes em diferentes processos.
+### COMPONETS
+Componentes são partes do código html separados e acoplados neste código foram criados 2 componentes ( extratos, formulário ) para criar novos componentes podemos executar através do CLI ou clicando direito sobre a pasta SRC e escolher criar componentes ou construi-los manualmente.
+Componentes são compostos de 3 arquivos, HTML ESTILO, LÓGICA ( e Teste) 
+- [] HTML: recebe todos processo referente as tags de marcação do código.
+- [] ESTILO – pode ser definido como CSS, SCSS, SASS, LESS recebe todos arquivo com dados referente a estilização final da página.
+- [] LÓGICA – arquivo em TypeScript que recebe todas regras e informações sobre o código.
+### VISAO FINAL DO PROJETO
+#### FRENTE: LISTA de TRANSFERENCIAS.
+	Quando o usuário entrar na página já será direcionado para o extrato de transferência, caso deseje realizar uma nova transferência poderá clicar no link Formulário.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### VERSO: FORMULÁRIO
+	No formulário o cliente poderá informar o valor que deseja transferir e então informar também a qual agência deseja transferir.
